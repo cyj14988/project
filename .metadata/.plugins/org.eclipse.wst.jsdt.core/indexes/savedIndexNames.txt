@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+C:\Users\Blueberry\OneDrive\Desktop\Á¤À¯Áø_java\workjava\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3870081276.index
+2911233047.index
+2273793277.index
+2141557062.index
+870412724.index
+881636781.index
+1133217083.index

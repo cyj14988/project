@@ -1,0 +1,39 @@
+package F1_문자열1_알고리즘;
+
+public class 문자열1_알고리즘_채팅_정답 {
+	/*
+	 * 위채팅을 아래서 위로 출력하는데 ,
+	 * 철수는 왼쪽정렬 ,
+	 * 영희는 오른쪽정렬로 출력해보자. 
+	 */
+	public static void main(String[] args) {
+		
+		String wordList [][]= {
+				{"철수", "영희야 안녕"} , 
+				{"영희", "철수야 안녕"} ,  
+				{"철수", "오늘 점심같이 먹을래?"}, 
+				{"영희", "아니 약속있어. 다음에 먹자."} , 
+				{"철수", "그래 다음에 먹자."}
+			};
+		
+		/*
+		 * 
+		 * "영희야 안녕"
+		 * 					"철수야 안녕"
+		 * "오늘 점심같이 먹을래?"
+		 * 	   "아니 약속있어. 다음에 먹자."
+		 * "그래 다음에 먹자."
+		 */
+		
+		for(int i = 0; i < wordList.length; i++) {
+			if(i % 2 == 0) {
+				System.out.printf("%-25s", wordList[i][1]);
+				System.out.println();
+			}else {
+				System.out.printf("%25s", wordList[i][1]);
+				System.out.println();
+			}
+		}
+	}
+
+}
